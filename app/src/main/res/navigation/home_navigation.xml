@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/feedContainerFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.logger.practicletask.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/feedContainerFragment"
+        android:name="com.logger.practicletask.feed.FeedContainerFragment"
+        android:label="FeedContainerFragment"
+        tools:layout="@layout/fragment_feed_container" />
+</navigation>

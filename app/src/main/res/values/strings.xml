@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Practicle Task</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email_or_mobile">Email/Mobile</string>
+    <string name="password">Password</string>
+    <string name="new_user">New User?</string>
+    <string name="register">Register</string>
+    <string name="please_enter_email_or_mobile_number">Please enter email or mobile number</string>
+    <string name="please_enter_valid_password">Please enter valid password</string>
+    <string name="password_must_be_at_least">Password must be at least 8 Characters long and should contain at least one small character, one capital character, one number and one symbol</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="city">City</string>
+    <string name="gender">Gender</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_registered">Already Registered?</string>
+    <string name="login">Login</string>
+    <string name="please_enter_full_name">Please enter full name</string>
+    <string name="please_enter_valid_email_address">Please enter valid email address</string>
+    <string name="please_enter_phone_number">Please enter phone number</string>
+    <string name="please_enter_city">Please enter city</string>
+    <string name="please_enter_gender">Please enter gender</string>
+    <string name="password_didnt_match">Password didn\'t match</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="email_already_exist">Email already exist</string>
+    <string name="phone_number_already_exist">Phone number already exist</string>
+    <string name="registration_failed">Registration Failed</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="feeds">Feeds</string>
+    <string name="profile">Profile</string>
+    <string name="user_not_found">User not found</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="logout">Logout</string>
+    <string name="profile_updated_successfully">Profile Updated Successfully</string>
+    <string name="search">Search</string>
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="all">All</string>
+    <string name="chicago">Chicago</string>
+    <string name="new_york">New York</string>
+    <string name="los_angeles">Los Angeles</string>
+</resources>

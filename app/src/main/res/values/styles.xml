@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="primaryTextView">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textColor">?attr/colorPrimaryTextTextView</item>
+    </style>
+
+    <style name="primaryTextView24Px" parent="primaryTextView">
+        <item name="android:textSize">@dimen/textSize24Px</item>
+    </style>
+
+    <style name="primaryTextView14Px" parent="primaryTextView">
+        <item name="android:textSize">@dimen/textSize14Px</item>
+    </style>
+
+    <style name="secondaryTextView">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:textColor">?attr/colorPrimaryTextTextView</item>
+    </style>
+
+    <style name="secondaryTextView14Px" parent="secondaryTextView">
+        <item name="android:textSize">@dimen/textSize14Px</item>
+    </style>
+
+    <style name="secondaryTextView10Px" parent="secondaryTextView">
+        <item name="android:textSize">@dimen/textSize10Px</item>
+    </style>
+
+    <style name="actionableTextView">
+        <item name="android:textSize">@dimen/textSize14Px</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="snackbarTextView" parent="secondaryTextView14Px">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="primaryEditText" parent="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox">
+        <item name="android:textColor">?attr/colorPrimaryTextEditText</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:paddingStart">@dimen/_8sdp</item>
+        <item name="android:paddingEnd">@dimen/_8sdp</item>
+        <item name="android:paddingTop">@dimen/_17sdp</item>
+        <item name="android:paddingBottom">@dimen/_5sdp</item>
+    </style>
+
+    <style name="primaryEditText14Px" parent="primaryEditText">
+        <item name="android:textSize">@dimen/textSize14Px</item>
+    </style>
+
+    <style name="secondaryEditText" parent="">
+        <item name="android:background">@drawable/bg_light_grey_rounded_rect_grey_border</item>
+        <item name="android:textColor">?attr/colorPrimaryTextTextView</item>
+        <item name="android:textColorHint">?attr/colorPrimaryTextEditText</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:padding">@dimen/_8sdp</item>
+    </style>
+
+    <style name="secondaryEditText14Px" parent="secondaryEditText">
+        <item name="android:textSize">@dimen/textSize14Px</item>
+    </style>
+
+    <style name="primaryButton" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="primaryButton14Px" parent="primaryButton">
+        <item name="android:textSize">@dimen/textSize14Px</item>
+    </style>
+</resources>
